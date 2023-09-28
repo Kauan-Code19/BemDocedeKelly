@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+.gradiente {
+    width: 100%;
+    background: linear-gradient(225deg, hsla(70, 27%, 96%, 1) 9%, hsla(334, 59%, 76%, 1) 59%);
+    background-size: 300% 200%;
+    animation: animate 6s infinite alternate;
+}
+
+
+@keyframes animate {
+    0% {
+        background-position: 50%;
+    }
+
+    100% {
+        background-position: 100%;
+    }
+}
+
+@font-face {
+    font-family: "The Seasons";
+    src: url(../FONTS/Fontspring-DEMO-theseasons-reg.otf);
+    font-family: "Vintage Goods";
+    src: url(../FONTS/Vintage\ Goods.otf);
+    font-family: "Agrandir Regular";
+    src: url(../FONTS/Agrandir-Regular.otf);
+    font-family: "Agrandir Tight";
+    src: url(../FONTS/Agrandir-Tight.otf);
+}
+
+.cabecalho {
+    padding: 12px;
+    max-height: 163px;
+    
+}
+
+.titulo {
+    padding: 8px;
+    margin-left: 155px;
+}
+
+.titulo h1 {
+    font-family: "The Seasons", sans-serif;
+    font-size: 60px;
+    color: #CD1D62;
+}
+
+.titulo h6 {
+    font-family: "Great Vibes", sans-serif;
+    font-size: 60px;
+    color: #84C9D8;
+    margin-top: -38px;
+}
+
+.cabecalho img {
+    width: 160px;
+    height: 160px;
+    padding: 8px;
+}
+
+
+.sobre h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #CD1D62;
+    padding: 14px;
+    font-size: xx-large;
+}
+
+.sobre p {
+    font-family: "Agrandir Regular", sans-serif;
+    line-height: 1.5;
+    margin:0 auto;
+    text-align: center;
+    width: 800px; /* Defina a largura desejada aqui */
+    word-wrap: break-word; /* Quebrar palavras longas se necessário */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.lista {
+    margin-top: 15px;
+    padding: 12px;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.list-group {
+    box-shadow: 4px 8px 10px 4px rgba(100, 100, 100, 2.2);
+}
+
+.container {
+    max-width: 400px;
+    margin: 0;
+}
+
+.carousel {
+    max-width: 800px;
+}
+
+.carousel-inner {
+    height: 27em;
+}
+
+.imagem1 {
+    background-image: url(../IMG/bolo3andares.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem2 {
+    background-image: url(../IMG/vulcao1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem3 {
+    background-image: url(../IMG/vulcao2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem4 {
+    background-image: url(../IMG/bolo3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem5 {
+    background-image: url(../IMG/bollokelly2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem6 {
+    background-image: url(../IMG/Bolokelly.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem7 {
+    background-image: url(../IMG/brigadeirokelly.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem8 {
+    background-image: url(../IMG/brigadeiro2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem9 {
+    background-image: url(../IMG/brigadeiro3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem10 {
+    background-image: url(../IMG/brigadeiro4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem11 {
+    background-image: url(../IMG/brigadeiro5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem12 {
+    background-image: url(../IMG/brigadeiro6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem13 {
+    background-image: url(../IMG/brigadeiro7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem14 {
+    background-image: url(../IMG/brigadeiro8.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem15 {
+    background-image: url(../IMG/salgadoskelly.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem16 {
+    background-image: url(../IMG/salgados1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem17 {
+    background-image: url(../IMG/torta1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem18 {
+    background-image: url(../IMG/torta2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem19 {
+    background-image: url(../IMG/bolo4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem20 {
+    background-image: url(../IMG/variados.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem21 {
+    background-image: url(../IMG/variados2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem22 {
+    background-image: url(../IMG/variados3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem23 {
+    background-image: url(../IMG/cupcake.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem24 {
+    background-image: url(../IMG/bolodepote.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #811140;
+}
+
+.footer {
+    background-color: #333333;
+    padding: 6px;
+}
+
+.footer-contact {
+    padding: 6px;
+    color: #84C9D8;
+    font-family: "Agradir Tight", sans-serif;
+}
+
+.footer-icons img {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    max-width: 30px;
+    max-height: 30px;
+}
