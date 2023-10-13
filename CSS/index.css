@@ -6,11 +6,6 @@
 }
 
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}
-
-
 .gradiente {
     width: 100%;
     background: linear-gradient(225deg, hsla(70, 27%, 96%, 1) 9%, hsla(334, 59%, 76%, 1) 59%);
@@ -40,15 +35,9 @@ h1, h2, h3, h4, h5, h6 {
     src: url(../FONTS/Agrandir-Tight.otf);
 }
 
-.cabecalho {
-    padding: 12px;
-    max-height: 163px;
-    
-}
-
-.titulo {
-    padding: 8px;
-    margin-left: 155px;
+.cabecalho img {
+    width: 115px;
+    height: 115px;
 }
 
 .titulo h1 {
@@ -64,17 +53,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -38px;
 }
 
-.cabecalho img {
-    width: 160px;
-    height: 160px;
-    padding: 8px;
-}
-
-
 .sobre h3 {
     font-family: 'Times New Roman', Times, serif;
     color: #CD1D62;
-    padding: 14px;
     font-size: xx-large;
 }
 
@@ -83,15 +64,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
     margin:0 auto;
     text-align: center;
-    width: 800px; /* Defina a largura desejada aqui */
     word-wrap: break-word; /* Quebrar palavras longas se necessário */
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.lista {
-    margin-top: 15px;
-    padding: 12px;
-}
 
 .list-group-item {
     background-color: transparent;
@@ -303,4 +279,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     max-width: 30px;
     max-height: 30px;
+}
+
+footer p {
+    font-weight: bold;
+    color: #84C9D8;
+    font-family: "Agradir Tight", sans-serif;
+    margin-bottom: 0;
+    margin-top: 10px;
 }
